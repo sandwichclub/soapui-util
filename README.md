@@ -7,8 +7,8 @@ Leverage soapui's powerful assertion methods in ruby to validate soap messages a
 
 To use this gem, the following environment variables must be set:
 
-    `JAVA_HOME: <java home directory> # example: /opt/jdk1.7.0_04
-    LD_LIBRARY_PATH: <java home directory>/lib  # example: /opt/jdk1.7.0_04/lib`
+    `JAVA_HOME: <java home directory>              #example: /opt/jdk1.7.0_04
+    LD_LIBRARY_PATH: <java home directory>/lib     #example: /opt/jdk1.7.0_04/lib`
 
 To validate against a WSDL stored in a file pass in: 'file:&lt;path to file&gt;'
 
