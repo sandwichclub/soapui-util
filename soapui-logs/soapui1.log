@@ -1,0 +1,42 @@
+2014-01-25 00:50:29,789 WARN  [SoapUI] Missing folder [/Users/cyrus/workspace_bb/soapui-util/./ext] for external libraries
+2014-01-25 00:50:29,789 INFO  [DefaultSoapUICore] Creating new settings at [/Users/cyrus/soapui-settings.xml]
+2014-01-25 00:50:30,175 INFO  [SchemaUtils] Added default schema from file:/Users/cyrus/workspace_bb/soapui-util/javalib/soapui-4.5.2.jar!/com/eviware/soapui/resources/xsds/xop.xsd with targetNamespace http://www.w3.org/2004/08/xop/include
+2014-01-25 00:50:30,217 INFO  [SchemaUtils] Added default schema from file:/Users/cyrus/workspace_bb/soapui-util/javalib/soapui-4.5.2.jar!/com/eviware/soapui/resources/xsds/XMLSchema.xsd with targetNamespace http://www.w3.org/2001/XMLSchema
+2014-01-25 00:50:30,219 INFO  [SchemaUtils] Added default schema from file:/Users/cyrus/workspace_bb/soapui-util/javalib/soapui-4.5.2.jar!/com/eviware/soapui/resources/xsds/xml.xsd with targetNamespace http://www.w3.org/XML/1998/namespace
+2014-01-25 00:50:30,220 INFO  [SchemaUtils] Added default schema from file:/Users/cyrus/workspace_bb/soapui-util/javalib/soapui-4.5.2.jar!/com/eviware/soapui/resources/xsds/swaref.xsd with targetNamespace http://ws-i.org/profiles/basic/1.1/xsd
+2014-01-25 00:50:30,220 INFO  [SchemaUtils] Added default schema from file:/Users/cyrus/workspace_bb/soapui-util/javalib/soapui-4.5.2.jar!/com/eviware/soapui/resources/xsds/xmime200505.xsd with targetNamespace http://www.w3.org/2005/05/xmlmime
+2014-01-25 00:50:30,221 INFO  [SchemaUtils] Added default schema from file:/Users/cyrus/workspace_bb/soapui-util/javalib/soapui-4.5.2.jar!/com/eviware/soapui/resources/xsds/xmime200411.xsd with targetNamespace http://www.w3.org/2004/11/xmlmime
+2014-01-25 00:50:30,223 INFO  [SchemaUtils] Added default schema from file:/Users/cyrus/workspace_bb/soapui-util/javalib/soapui-4.5.2.jar!/com/eviware/soapui/resources/xsds/soapEnvelope.xsd with targetNamespace http://schemas.xmlsoap.org/soap/envelope/
+2014-01-25 00:50:30,229 INFO  [SchemaUtils] Added default schema from file:/Users/cyrus/workspace_bb/soapui-util/javalib/soapui-4.5.2.jar!/com/eviware/soapui/resources/xsds/soapEncoding.xsd with targetNamespace http://schemas.xmlsoap.org/soap/encoding/
+2014-01-25 00:50:30,231 INFO  [SchemaUtils] Added default schema from file:/Users/cyrus/workspace_bb/soapui-util/javalib/soapui-4.5.2.jar!/com/eviware/soapui/resources/xsds/soapEnvelope12.xsd with targetNamespace http://www.w3.org/2003/05/soap-envelope
+2014-01-25 00:50:30,237 INFO  [SchemaUtils] Added default schema from file:/Users/cyrus/workspace_bb/soapui-util/javalib/soapui-4.5.2.jar!/com/eviware/soapui/resources/xsds/soapEncoding12.xsd with targetNamespace http://www.w3.org/2003/05/soap-encoding
+2014-01-25 00:50:30,305 INFO  [SchemaUtils] Loading schema types from [file:/Users/cyrus/workspace_bb/soapui-util/spec/wsdl/spyne.wsdl]
+2014-01-25 00:50:30,305 INFO  [SchemaUtils] Getting schema file:/Users/cyrus/workspace_bb/soapui-util/spec/wsdl/spyne.wsdl
+2014-01-25 00:50:30,548 INFO  [WsdlImporter] Finding importer for {spyne.examples.hello}Application
+2014-01-25 00:50:30,551 INFO  [WsdlImporter] Importing binding {spyne.examples.hello}Application
+2014-01-25 00:50:30,570 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:8000/
+2014-01-25 00:50:30,574 INFO  [Soap11HttpBindingImporter] importing operation say_hello
+2014-01-25 00:50:30,733 INFO  [SchemaUtils] Loading schema types from [file:/Users/cyrus/workspace_bb/soapui-util/spec/wsdl/spyne.wsdl]
+2014-01-25 00:50:30,733 INFO  [SchemaUtils] Getting schema file:/Users/cyrus/workspace_bb/soapui-util/spec/wsdl/spyne.wsdl
+2014-01-25 00:50:30,860 INFO  [SchemaUtils] Loading schema types from [file:/Users/cyrus/workspace_bb/soapui-util/spec/wsdl/spyne.wsdl]
+2014-01-25 00:50:30,860 INFO  [SchemaUtils] Getting schema file:/Users/cyrus/workspace_bb/soapui-util/spec/wsdl/spyne.wsdl
+2014-01-25 00:50:30,947 INFO  [WsdlImporter] Finding importer for {spyne.examples.hello}Application
+2014-01-25 00:50:30,947 INFO  [WsdlImporter] Importing binding {spyne.examples.hello}Application
+2014-01-25 00:50:30,947 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:8000/
+2014-01-25 00:50:30,948 INFO  [Soap11HttpBindingImporter] importing operation say_hello
+2014-01-25 00:50:30,970 INFO  [SchemaUtils] Loading schema types from [file:/Users/cyrus/workspace_bb/soapui-util/spec/wsdl/spyne.wsdl]
+2014-01-25 00:50:30,970 INFO  [SchemaUtils] Getting schema file:/Users/cyrus/workspace_bb/soapui-util/spec/wsdl/spyne.wsdl
+2014-01-25 00:50:31,070 INFO  [SchemaUtils] Loading schema types from [file:/Users/cyrus/workspace_bb/soapui-util/spec/wsdl/spyne.wsdl]
+2014-01-25 00:50:31,070 INFO  [SchemaUtils] Getting schema file:/Users/cyrus/workspace_bb/soapui-util/spec/wsdl/spyne.wsdl
+2014-01-25 00:50:31,137 INFO  [WsdlImporter] Finding importer for {spyne.examples.hello}Application
+2014-01-25 00:50:31,137 INFO  [WsdlImporter] Importing binding {spyne.examples.hello}Application
+2014-01-25 00:50:31,138 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:8000/
+2014-01-25 00:50:31,138 INFO  [Soap11HttpBindingImporter] importing operation say_hello
+2014-01-25 00:50:31,169 INFO  [SchemaUtils] Loading schema types from [file:/Users/cyrus/workspace_bb/soapui-util/spec/wsdl/spyne.wsdl]
+2014-01-25 00:50:31,169 INFO  [SchemaUtils] Getting schema file:/Users/cyrus/workspace_bb/soapui-util/spec/wsdl/spyne.wsdl
+2014-01-25 00:50:31,246 INFO  [SchemaUtils] Loading schema types from [file:/Users/cyrus/workspace_bb/soapui-util/spec/wsdl/spyne.wsdl]
+2014-01-25 00:50:31,246 INFO  [SchemaUtils] Getting schema file:/Users/cyrus/workspace_bb/soapui-util/spec/wsdl/spyne.wsdl
+2014-01-25 00:50:31,305 INFO  [WsdlImporter] Finding importer for {spyne.examples.hello}Application
+2014-01-25 00:50:31,305 INFO  [WsdlImporter] Importing binding {spyne.examples.hello}Application
+2014-01-25 00:50:31,305 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:8000/
+2014-01-25 00:50:31,305 INFO  [Soap11HttpBindingImporter] importing operation say_hello

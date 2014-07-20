@@ -1,0 +1,34 @@
+mit
+    bcprov-jdk15-144.jar
+
+apache v2.0
+    commons-beanutils-1.7.0.jar
+    commons-cli-1.0.jar
+    commons-lang-2.4.jar
+    commons-logging-1.1.1.jar
+    guava-14.0.jar
+    httpclient-4.1.1.jar
+    httpcore-4.1.1.jar
+
+eclipse public license - v 1.0
+    junit-4.10.jar
+
+apache v2.0
+    log4j-1.2.14.jar
+
+CDDLv1.0
+    mail-1.4.jar
+
+BSD
+    rsyntaxtextarea-2.0.1.jar
+
+GNU
+    soapui-4.5.2.jar
+
+mit
+    soapui-util.jar
+
+apache v2.0
+    wsdl4j-1.6.2-fixed.jar
+    xbean-fixed-2.4.0.jar
+    xercesImpl-2.9.1.jar
