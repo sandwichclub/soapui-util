@@ -1,7 +1,6 @@
 #lib_dir = File.join(File.dirname(__FILE__), '..', 'lib')
 #$: << File.expand_path(lib_dir)
 
-require 'soapui-util'
 require 'simplecov'
 require 'coveralls'
 
@@ -10,6 +9,8 @@ SimpleCov.formatter = Coveralls::SimpleCov::Formatter
 SimpleCov.start do
   add_filter 'spec'
 end
+
+require 'soapui-util'
 
 begin
   puts "LOG: current JAVA_HOME = #{ENV['JAVA_HOME']}"
