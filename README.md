@@ -1,9 +1,11 @@
 SoapUI-Util
------------
+=====================
+[![Build Status](https://secure.travis-ci.org/sandwichclub/soapui-util.png?branch=master)](http://travis-ci.org/sandwichclub/soapui-util)
+[![Coverage Status](https://coveralls.io/repos/sandwichclub/soapui-util/badge.png?branch=master)](https://coveralls.io/r/sandwhichclub/soapui-util)
 
-Use soapui assertions in ruby!
-
-Leverage soapui's powerful assertion methods in ruby to validate soap messages against the wsdl
+ * https://github.com/sandwichclub/soapui-util
+ * Use soapui assertions in ruby!
+ * Leverage soapui's powerful assertion methods in ruby to validate soap messages against the wsdl
 
 To use this gem, the following environment variables must be set:
 
@@ -14,7 +16,7 @@ To validate against a WSDL stored in a file pass in: 'file:&lt;path to file&gt;'
 
 
 TODO:
--------
+=====================
   * [done] fix java unit tests wsdlMessageValidatorTest
   * wsdlMessageValidator.java, line 146: fix parsing out body tag from message to be more friendly
   * fix: NameError: uninitialized constant MessageValidator::WsdlMessageValidatorFaultException,
