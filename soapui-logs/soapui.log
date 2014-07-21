@@ -1,42 +1,94 @@
-2014-01-28 00:09:55,844 WARN  [SoapUI] Missing folder [/Users/cyrus/workspace_bb/soapui-util/./ext] for external libraries
-2014-01-28 00:09:55,845 INFO  [DefaultSoapUICore] Creating new settings at [/Users/cyrus/soapui-settings.xml]
-2014-01-28 00:09:56,338 INFO  [SchemaUtils] Added default schema from file:/Users/cyrus/workspace_bb/soapui-util/javalib/soapui-4.5.2.jar!/com/eviware/soapui/resources/xsds/xop.xsd with targetNamespace http://www.w3.org/2004/08/xop/include
-2014-01-28 00:09:56,381 INFO  [SchemaUtils] Added default schema from file:/Users/cyrus/workspace_bb/soapui-util/javalib/soapui-4.5.2.jar!/com/eviware/soapui/resources/xsds/XMLSchema.xsd with targetNamespace http://www.w3.org/2001/XMLSchema
-2014-01-28 00:09:56,383 INFO  [SchemaUtils] Added default schema from file:/Users/cyrus/workspace_bb/soapui-util/javalib/soapui-4.5.2.jar!/com/eviware/soapui/resources/xsds/xml.xsd with targetNamespace http://www.w3.org/XML/1998/namespace
-2014-01-28 00:09:56,384 INFO  [SchemaUtils] Added default schema from file:/Users/cyrus/workspace_bb/soapui-util/javalib/soapui-4.5.2.jar!/com/eviware/soapui/resources/xsds/swaref.xsd with targetNamespace http://ws-i.org/profiles/basic/1.1/xsd
-2014-01-28 00:09:56,384 INFO  [SchemaUtils] Added default schema from file:/Users/cyrus/workspace_bb/soapui-util/javalib/soapui-4.5.2.jar!/com/eviware/soapui/resources/xsds/xmime200505.xsd with targetNamespace http://www.w3.org/2005/05/xmlmime
-2014-01-28 00:09:56,385 INFO  [SchemaUtils] Added default schema from file:/Users/cyrus/workspace_bb/soapui-util/javalib/soapui-4.5.2.jar!/com/eviware/soapui/resources/xsds/xmime200411.xsd with targetNamespace http://www.w3.org/2004/11/xmlmime
-2014-01-28 00:09:56,387 INFO  [SchemaUtils] Added default schema from file:/Users/cyrus/workspace_bb/soapui-util/javalib/soapui-4.5.2.jar!/com/eviware/soapui/resources/xsds/soapEnvelope.xsd with targetNamespace http://schemas.xmlsoap.org/soap/envelope/
-2014-01-28 00:09:56,393 INFO  [SchemaUtils] Added default schema from file:/Users/cyrus/workspace_bb/soapui-util/javalib/soapui-4.5.2.jar!/com/eviware/soapui/resources/xsds/soapEncoding.xsd with targetNamespace http://schemas.xmlsoap.org/soap/encoding/
-2014-01-28 00:09:56,396 INFO  [SchemaUtils] Added default schema from file:/Users/cyrus/workspace_bb/soapui-util/javalib/soapui-4.5.2.jar!/com/eviware/soapui/resources/xsds/soapEnvelope12.xsd with targetNamespace http://www.w3.org/2003/05/soap-envelope
-2014-01-28 00:09:56,402 INFO  [SchemaUtils] Added default schema from file:/Users/cyrus/workspace_bb/soapui-util/javalib/soapui-4.5.2.jar!/com/eviware/soapui/resources/xsds/soapEncoding12.xsd with targetNamespace http://www.w3.org/2003/05/soap-encoding
-2014-01-28 00:09:56,486 INFO  [SchemaUtils] Loading schema types from [file:/Users/cyrus/workspace_bb/soapui-util/spec/wsdl/spyne.wsdl]
-2014-01-28 00:09:56,486 INFO  [SchemaUtils] Getting schema file:/Users/cyrus/workspace_bb/soapui-util/spec/wsdl/spyne.wsdl
-2014-01-28 00:09:56,758 INFO  [WsdlImporter] Finding importer for {spyne.examples.hello}Application
-2014-01-28 00:09:56,761 INFO  [WsdlImporter] Importing binding {spyne.examples.hello}Application
-2014-01-28 00:09:56,796 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:8000/
-2014-01-28 00:09:56,803 INFO  [Soap11HttpBindingImporter] importing operation say_hello
-2014-01-28 00:09:57,012 INFO  [SchemaUtils] Loading schema types from [file:/Users/cyrus/workspace_bb/soapui-util/spec/wsdl/spyne.wsdl]
-2014-01-28 00:09:57,012 INFO  [SchemaUtils] Getting schema file:/Users/cyrus/workspace_bb/soapui-util/spec/wsdl/spyne.wsdl
-2014-01-28 00:09:57,147 INFO  [SchemaUtils] Loading schema types from [file:/Users/cyrus/workspace_bb/soapui-util/spec/wsdl/spyne.wsdl]
-2014-01-28 00:09:57,147 INFO  [SchemaUtils] Getting schema file:/Users/cyrus/workspace_bb/soapui-util/spec/wsdl/spyne.wsdl
-2014-01-28 00:09:57,238 INFO  [WsdlImporter] Finding importer for {spyne.examples.hello}Application
-2014-01-28 00:09:57,238 INFO  [WsdlImporter] Importing binding {spyne.examples.hello}Application
-2014-01-28 00:09:57,239 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:8000/
-2014-01-28 00:09:57,239 INFO  [Soap11HttpBindingImporter] importing operation say_hello
-2014-01-28 00:09:57,263 INFO  [SchemaUtils] Loading schema types from [file:/Users/cyrus/workspace_bb/soapui-util/spec/wsdl/spyne.wsdl]
-2014-01-28 00:09:57,263 INFO  [SchemaUtils] Getting schema file:/Users/cyrus/workspace_bb/soapui-util/spec/wsdl/spyne.wsdl
-2014-01-28 00:09:57,367 INFO  [SchemaUtils] Loading schema types from [file:/Users/cyrus/workspace_bb/soapui-util/spec/wsdl/spyne.wsdl]
-2014-01-28 00:09:57,367 INFO  [SchemaUtils] Getting schema file:/Users/cyrus/workspace_bb/soapui-util/spec/wsdl/spyne.wsdl
-2014-01-28 00:09:57,441 INFO  [WsdlImporter] Finding importer for {spyne.examples.hello}Application
-2014-01-28 00:09:57,441 INFO  [WsdlImporter] Importing binding {spyne.examples.hello}Application
-2014-01-28 00:09:57,441 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:8000/
-2014-01-28 00:09:57,442 INFO  [Soap11HttpBindingImporter] importing operation say_hello
-2014-01-28 00:09:57,466 INFO  [SchemaUtils] Loading schema types from [file:/Users/cyrus/workspace_bb/soapui-util/spec/wsdl/spyne.wsdl]
-2014-01-28 00:09:57,466 INFO  [SchemaUtils] Getting schema file:/Users/cyrus/workspace_bb/soapui-util/spec/wsdl/spyne.wsdl
-2014-01-28 00:09:57,548 INFO  [SchemaUtils] Loading schema types from [file:/Users/cyrus/workspace_bb/soapui-util/spec/wsdl/spyne.wsdl]
-2014-01-28 00:09:57,548 INFO  [SchemaUtils] Getting schema file:/Users/cyrus/workspace_bb/soapui-util/spec/wsdl/spyne.wsdl
-2014-01-28 00:09:57,618 INFO  [WsdlImporter] Finding importer for {spyne.examples.hello}Application
-2014-01-28 00:09:57,618 INFO  [WsdlImporter] Importing binding {spyne.examples.hello}Application
-2014-01-28 00:09:57,618 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:8000/
-2014-01-28 00:09:57,618 INFO  [Soap11HttpBindingImporter] importing operation say_hello
+2014-07-20 21:00:39,810 WARN  [SoapUI] Missing folder [/Users/cyrus/workspace/soapui-util/./ext] for external libraries
+2014-07-20 21:00:39,819 INFO  [DefaultSoapUICore] initialized soapui-settings from [/Users/cyrus/soapui-settings.xml]
+2014-07-20 21:00:40,332 INFO  [SchemaUtils] Added default schema from file:/Users/cyrus/workspace/soapui-util/javalib/soapui-4.5.2.jar!/com/eviware/soapui/resources/xsds/xop.xsd with targetNamespace http://www.w3.org/2004/08/xop/include
+2014-07-20 21:00:40,385 INFO  [SchemaUtils] Added default schema from file:/Users/cyrus/workspace/soapui-util/javalib/soapui-4.5.2.jar!/com/eviware/soapui/resources/xsds/XMLSchema.xsd with targetNamespace http://www.w3.org/2001/XMLSchema
+2014-07-20 21:00:40,386 INFO  [SchemaUtils] Added default schema from file:/Users/cyrus/workspace/soapui-util/javalib/soapui-4.5.2.jar!/com/eviware/soapui/resources/xsds/xml.xsd with targetNamespace http://www.w3.org/XML/1998/namespace
+2014-07-20 21:00:40,387 INFO  [SchemaUtils] Added default schema from file:/Users/cyrus/workspace/soapui-util/javalib/soapui-4.5.2.jar!/com/eviware/soapui/resources/xsds/swaref.xsd with targetNamespace http://ws-i.org/profiles/basic/1.1/xsd
+2014-07-20 21:00:40,388 INFO  [SchemaUtils] Added default schema from file:/Users/cyrus/workspace/soapui-util/javalib/soapui-4.5.2.jar!/com/eviware/soapui/resources/xsds/xmime200505.xsd with targetNamespace http://www.w3.org/2005/05/xmlmime
+2014-07-20 21:00:40,389 INFO  [SchemaUtils] Added default schema from file:/Users/cyrus/workspace/soapui-util/javalib/soapui-4.5.2.jar!/com/eviware/soapui/resources/xsds/xmime200411.xsd with targetNamespace http://www.w3.org/2004/11/xmlmime
+2014-07-20 21:00:40,391 INFO  [SchemaUtils] Added default schema from file:/Users/cyrus/workspace/soapui-util/javalib/soapui-4.5.2.jar!/com/eviware/soapui/resources/xsds/soapEnvelope.xsd with targetNamespace http://schemas.xmlsoap.org/soap/envelope/
+2014-07-20 21:00:40,397 INFO  [SchemaUtils] Added default schema from file:/Users/cyrus/workspace/soapui-util/javalib/soapui-4.5.2.jar!/com/eviware/soapui/resources/xsds/soapEncoding.xsd with targetNamespace http://schemas.xmlsoap.org/soap/encoding/
+2014-07-20 21:00:40,399 INFO  [SchemaUtils] Added default schema from file:/Users/cyrus/workspace/soapui-util/javalib/soapui-4.5.2.jar!/com/eviware/soapui/resources/xsds/soapEnvelope12.xsd with targetNamespace http://www.w3.org/2003/05/soap-envelope
+2014-07-20 21:00:40,406 INFO  [SchemaUtils] Added default schema from file:/Users/cyrus/workspace/soapui-util/javalib/soapui-4.5.2.jar!/com/eviware/soapui/resources/xsds/soapEncoding12.xsd with targetNamespace http://www.w3.org/2003/05/soap-encoding
+2014-07-20 21:00:40,517 INFO  [SchemaUtils] Loading schema types from [file:/Users/cyrus/workspace/soapui-util/spec/wsdl/spyne.wsdl]
+2014-07-20 21:00:40,517 INFO  [SchemaUtils] Getting schema file:/Users/cyrus/workspace/soapui-util/spec/wsdl/spyne.wsdl
+2014-07-20 21:00:40,856 INFO  [WsdlImporter] Finding importer for {spyne.examples.hello}Application
+2014-07-20 21:00:40,860 INFO  [WsdlImporter] Importing binding {spyne.examples.hello}Application
+2014-07-20 21:00:40,891 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:8000/
+2014-07-20 21:00:40,898 INFO  [Soap11HttpBindingImporter] importing operation say_hello
+2014-07-20 21:00:41,689 ERROR [SoapUI] An error occured [CHS7KARLGOL01: CHS7KARLGOL01: nodename nor servname provided, or not known], see error log for details
+2014-07-20 21:00:41,690 ERROR [errorlog] java.net.UnknownHostException: CHS7KARLGOL01: CHS7KARLGOL01: nodename nor servname provided, or not known
+java.net.UnknownHostException: CHS7KARLGOL01: CHS7KARLGOL01: nodename nor servname provided, or not known
+	at java.net.InetAddress.getLocalHost(InetAddress.java:1466)
+	at com.eviware.soapui.impl.wsdl.mock.WsdlMockService.<init>(WsdlMockService.java:115)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.addNewMockService(WsdlProject.java:1248)
+	at com.soapuiutil.wsdlvalidator.WsdlMessageValidator.<init>(WsdlMessageValidator.java:82)
+Caused by: java.net.UnknownHostException: CHS7KARLGOL01: nodename nor servname provided, or not known
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$1.lookupAllHostAddr(InetAddress.java:894)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1286)
+	at java.net.InetAddress.getLocalHost(InetAddress.java:1462)
+	... 3 more
+2014-07-20 21:00:41,762 INFO  [SchemaUtils] Loading schema types from [file:/Users/cyrus/workspace/soapui-util/spec/wsdl/spyne.wsdl]
+2014-07-20 21:00:41,762 INFO  [SchemaUtils] Getting schema file:/Users/cyrus/workspace/soapui-util/spec/wsdl/spyne.wsdl
+2014-07-20 21:00:41,910 INFO  [SchemaUtils] Loading schema types from [file:/Users/cyrus/workspace/soapui-util/spec/wsdl/spyne.wsdl]
+2014-07-20 21:00:41,910 INFO  [SchemaUtils] Getting schema file:/Users/cyrus/workspace/soapui-util/spec/wsdl/spyne.wsdl
+2014-07-20 21:00:42,027 INFO  [WsdlImporter] Finding importer for {spyne.examples.hello}Application
+2014-07-20 21:00:42,028 INFO  [WsdlImporter] Importing binding {spyne.examples.hello}Application
+2014-07-20 21:00:42,028 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:8000/
+2014-07-20 21:00:42,028 INFO  [Soap11HttpBindingImporter] importing operation say_hello
+2014-07-20 21:00:42,037 ERROR [SoapUI] An error occured [CHS7KARLGOL01: CHS7KARLGOL01: nodename nor servname provided, or not known], see error log for details
+2014-07-20 21:00:42,037 ERROR [errorlog] java.net.UnknownHostException: CHS7KARLGOL01: CHS7KARLGOL01: nodename nor servname provided, or not known
+java.net.UnknownHostException: CHS7KARLGOL01: CHS7KARLGOL01: nodename nor servname provided, or not known
+	at java.net.InetAddress.getLocalHost(InetAddress.java:1466)
+	at com.eviware.soapui.impl.wsdl.mock.WsdlMockService.<init>(WsdlMockService.java:115)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.addNewMockService(WsdlProject.java:1248)
+	at com.soapuiutil.wsdlvalidator.WsdlMessageValidator.<init>(WsdlMessageValidator.java:82)
+Caused by: java.net.UnknownHostException: CHS7KARLGOL01: nodename nor servname provided, or not known
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$1.lookupAllHostAddr(InetAddress.java:894)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1286)
+	at java.net.InetAddress.getLocalHost(InetAddress.java:1462)
+	... 3 more
+2014-07-20 21:00:42,053 INFO  [SchemaUtils] Loading schema types from [file:/Users/cyrus/workspace/soapui-util/spec/wsdl/spyne.wsdl]
+2014-07-20 21:00:42,053 INFO  [SchemaUtils] Getting schema file:/Users/cyrus/workspace/soapui-util/spec/wsdl/spyne.wsdl
+2014-07-20 21:00:42,166 INFO  [SchemaUtils] Loading schema types from [file:/Users/cyrus/workspace/soapui-util/spec/wsdl/spyne.wsdl]
+2014-07-20 21:00:42,166 INFO  [SchemaUtils] Getting schema file:/Users/cyrus/workspace/soapui-util/spec/wsdl/spyne.wsdl
+2014-07-20 21:00:42,264 INFO  [WsdlImporter] Finding importer for {spyne.examples.hello}Application
+2014-07-20 21:00:42,264 INFO  [WsdlImporter] Importing binding {spyne.examples.hello}Application
+2014-07-20 21:00:42,264 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:8000/
+2014-07-20 21:00:42,264 INFO  [Soap11HttpBindingImporter] importing operation say_hello
+2014-07-20 21:00:42,273 ERROR [SoapUI] An error occured [CHS7KARLGOL01: CHS7KARLGOL01: nodename nor servname provided, or not known], see error log for details
+2014-07-20 21:00:42,273 ERROR [errorlog] java.net.UnknownHostException: CHS7KARLGOL01: CHS7KARLGOL01: nodename nor servname provided, or not known
+java.net.UnknownHostException: CHS7KARLGOL01: CHS7KARLGOL01: nodename nor servname provided, or not known
+	at java.net.InetAddress.getLocalHost(InetAddress.java:1466)
+	at com.eviware.soapui.impl.wsdl.mock.WsdlMockService.<init>(WsdlMockService.java:115)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.addNewMockService(WsdlProject.java:1248)
+	at com.soapuiutil.wsdlvalidator.WsdlMessageValidator.<init>(WsdlMessageValidator.java:82)
+Caused by: java.net.UnknownHostException: CHS7KARLGOL01: nodename nor servname provided, or not known
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$1.lookupAllHostAddr(InetAddress.java:894)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1286)
+	at java.net.InetAddress.getLocalHost(InetAddress.java:1462)
+	... 3 more
+2014-07-20 21:00:42,290 INFO  [SchemaUtils] Loading schema types from [file:/Users/cyrus/workspace/soapui-util/spec/wsdl/spyne.wsdl]
+2014-07-20 21:00:42,290 INFO  [SchemaUtils] Getting schema file:/Users/cyrus/workspace/soapui-util/spec/wsdl/spyne.wsdl
+2014-07-20 21:00:42,369 INFO  [SchemaUtils] Loading schema types from [file:/Users/cyrus/workspace/soapui-util/spec/wsdl/spyne.wsdl]
+2014-07-20 21:00:42,369 INFO  [SchemaUtils] Getting schema file:/Users/cyrus/workspace/soapui-util/spec/wsdl/spyne.wsdl
+2014-07-20 21:00:42,522 INFO  [WsdlImporter] Finding importer for {spyne.examples.hello}Application
+2014-07-20 21:00:42,522 INFO  [WsdlImporter] Importing binding {spyne.examples.hello}Application
+2014-07-20 21:00:42,523 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:8000/
+2014-07-20 21:00:42,523 INFO  [Soap11HttpBindingImporter] importing operation say_hello
+2014-07-20 21:00:42,531 ERROR [SoapUI] An error occured [CHS7KARLGOL01: CHS7KARLGOL01: nodename nor servname provided, or not known], see error log for details
+2014-07-20 21:00:42,531 ERROR [errorlog] java.net.UnknownHostException: CHS7KARLGOL01: CHS7KARLGOL01: nodename nor servname provided, or not known
+java.net.UnknownHostException: CHS7KARLGOL01: CHS7KARLGOL01: nodename nor servname provided, or not known
+	at java.net.InetAddress.getLocalHost(InetAddress.java:1466)
+	at com.eviware.soapui.impl.wsdl.mock.WsdlMockService.<init>(WsdlMockService.java:115)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.addNewMockService(WsdlProject.java:1248)
+	at com.soapuiutil.wsdlvalidator.WsdlMessageValidator.<init>(WsdlMessageValidator.java:82)
+Caused by: java.net.UnknownHostException: CHS7KARLGOL01: nodename nor servname provided, or not known
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$1.lookupAllHostAddr(InetAddress.java:894)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1286)
+	at java.net.InetAddress.getLocalHost(InetAddress.java:1462)
+	... 3 more

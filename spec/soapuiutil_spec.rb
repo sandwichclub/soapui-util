@@ -1,5 +1,7 @@
 require_relative 'spec_helper'
 
+ENV['JAVA_HOME'] = '/Library/Java/Home'
+
 describe 'using soapui-util methods' do
 
   before (:all) do
