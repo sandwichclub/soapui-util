@@ -18,7 +18,7 @@ describe 'using soapui-util methods' do
   </soapenv:Body>
 </soapenv:Envelope>'
 
-    SoapuiUtil.is_schema_compliant(message_string, @wsdl).should be_true
+    SoapuiUtil.is_schema_compliant(message_string, @wsdl).should be_truthy
   end
 
   specify 'is_schema_compliant should contains errors when passed a malformed soap message' do
@@ -35,7 +35,7 @@ describe 'using soapui-util methods' do
   </soapenv:Body>
 </soapenv:Envelope>'
 
-    SoapuiUtil.is_schema_compliant(message_string, @wsdl).should be_false
+    SoapuiUtil.is_schema_compliant(message_string, @wsdl).should be_falsey
   end
 
   specify 'validate_schema_compliance response should contain multiple errors' do
@@ -73,7 +73,7 @@ describe 'using soapui-util methods' do
   </soap:Body>
 </soap:Envelope>'
 
-    SoapuiUtil.is_schema_compliant(message_string, @wsdl).should be_true
+    SoapuiUtil.is_schema_compliant(message_string, @wsdl).should be_truthy
   end
 
 end

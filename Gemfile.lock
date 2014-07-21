@@ -106,4 +106,5 @@ DEPENDENCIES
   rake (~> 10.3.2)
   rdoc
   rspec (~> 2.99)
+  simplecov
   soapui-util!

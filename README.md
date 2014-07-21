@@ -1,7 +1,7 @@
 SoapUI-Util
 =====================
 [![Build Status](https://secure.travis-ci.org/sandwichclub/soapui-util.png?branch=master)](http://travis-ci.org/sandwichclub/soapui-util)
-[![Coverage Status](https://coveralls.io/repos/sandwichclub/soapui-util/badge.png?branch=master)](https://coveralls.io/r/sandwichclub/soapui-util)
+[![Coverage Status](https://coveralls.io/repos/sandwichclub/soapui-util/badge.png)](https://coveralls.io/r/sandwichclub/soapui-util)
 
  * https://github.com/sandwichclub/soapui-util
  * Use soapui assertions in ruby!

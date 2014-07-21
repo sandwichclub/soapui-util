@@ -2,8 +2,13 @@
 #$: << File.expand_path(lib_dir)
 
 require 'soapui-util'
+require 'simplecov'
 require 'coveralls'
-Coveralls.wear!
+#Coveralls.wear!
+SimpleCov.formatter = Coveralls::SimpleCov::Formatter
+SimpleCov.start do
+  add_filter 'spec'
+end
 
 begin
   puts "LOG: current JAVA_HOME = #{ENV['JAVA_HOME']}"

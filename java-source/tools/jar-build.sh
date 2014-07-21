@@ -1,5 +1,5 @@
 #!/bin/sh
-# builds the jar file: blackbaud-wsdl-validator.jar file into the javalib directory.
+# builds the jar file: soapui-util.jar file into the javalib directory.
 # That file should be included in the java classpath when compiling the java code.
 
 javalib_directory="javalib/"
