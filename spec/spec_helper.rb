@@ -2,6 +2,8 @@
 #$: << File.expand_path(lib_dir)
 
 require 'soapui-util'
+require 'coveralls'
+Coveralls.wear!
 
 begin
   puts "LOG: current JAVA_HOME = #{ENV['JAVA_HOME']}"
