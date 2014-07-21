@@ -1,7 +1,5 @@
 require_relative 'spec_helper'
 
-ENV['JAVA_HOME'] = '/usr/bin/java'
-
 describe 'using soapui-util methods' do
 
   before (:all) do
