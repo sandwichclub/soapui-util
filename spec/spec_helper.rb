@@ -4,10 +4,10 @@
 require 'soapui-util'
 
 begin
-  puts "CURRENT JH = #{ENV['JAVA_HOME']}"
-  java_home = %x(echo $JAVA_HOME) ||  %x(which java)
-  puts "LOG: setting java_home to: '#{java_home}'"
-  ENV['JAVA_HOME'] = java_home
+  puts "LOG: current JAVA_HOME = #{ENV['JAVA_HOME']}"
+  java_home = %x(which java)
+  puts "LOG: setting JAVA_HOME to: #{java_home}"
+  ENV['JAVA_HOME'] ||= java_home
 rescue
   puts "WARN: Problem setting JAVA_HOME to: '#{java_home}'"
 end
