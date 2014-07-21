@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.require_paths         = ['lib']
 
   #s.require_ruby_version('>= 1.9.3')
-  s.add_dependency('rjb', '1.4.8')
+  s.add_dependency('rjb', '1.4.9')
   s.add_dependency('fiddle')
   s.add_development_dependency('rake', ['~>10.3.2'])
   s.add_development_dependency('rspec', ['~>2.99'])

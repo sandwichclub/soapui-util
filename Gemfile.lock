@@ -3,7 +3,7 @@ PATH
   specs:
     soapui-util (0.47.0)
       fiddle
-      rjb (= 1.4.8)
+      rjb (= 1.4.9)
 
 GEM
   remote: https://rubygems.org/
@@ -61,7 +61,7 @@ GEM
       json (~> 1.4)
     responders (1.1.0)
       railties (>= 3.2, < 5)
-    rjb (1.4.8)
+    rjb (1.4.9)
     rspec (2.99.0)
       rspec-core (~> 2.99.0)
       rspec-expectations (~> 2.99.0)
