@@ -81,7 +81,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler
-  rake (~> 10.1)
+  rake (~> 10.3.2)
   rdoc
   rspec (~> 2.99)
   soapui-util!
